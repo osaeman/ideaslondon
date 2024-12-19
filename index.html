@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Website Title -->
+    <title>Ideas London | Homepage</title>
+    <!-- 
+    <meta
+      name="keywords"
+      content=""
+    />
+    <meta
+      name="description"
+      content=""
+    />
+
+    <meta name="author" content="" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="google" content="nositelinkssearchbox" />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/default-favicon.ico"
+      type="image/x-icon"
+    /> -->
+
+    <!-- Google Fonts -->
+    <!-- Preconnecting can help reduce the latency when actual requests are made to this domain, such as when fetching font resources. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+
+    <!-- Style Flipdown -->
+    <link
+      href="https://pbutcher.uk/flipdown/css/flipdown/flipdown.css"
+      rel="stylesheet"
+    />
+
+    <!-- ALL MIN CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- File Normalization -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <!-- Import CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!---------- Header----------->
+    <header>
+      <div class="header-flexbox container">
+        <div class="header-logo">
+          <a href="./index.html">
+            <!-- <img src="./assets/header logo.png" alt="" /> -->
+            <img src="./assets/logo footer.png" alt="" />
+          </a>
+        </div>
+        <div class="header-nav">
+          <div class="header-btns">
+            <button class="SMN_effect-8 js-open">
+              <div>
+                <a data-hover="500 £">
+                  <span>Register to attend</span>
+                </a>
+              </div>
+            </button>
+            <button class="SMN_effect-8 js-open">
+              <div>
+                <a data-hover="1000 £">
+                  <span>Setup a stall </span>
+                </a>
+              </div>
+            </button>
+          </div>
+          <nav>
+            <span>
+              <a href="./index.html#businesses">Businesses</a>
+            </span>
+            <span>
+              <a href="./index.html#entrepreneurs"> Entrepreneurs</a>
+            </span>
+            <span>
+              <a href="./index.html#investors">Investors</a>
+            </span>
+            <span>
+              <a href="./index.html#speeches"> Speeches</a>
+            </span>
+            <span>
+              <a href="./index.html#seminars">Seminars</a>
+            </span>
+
+            <a
+              href="./index.html#contact"
+              class="btn-flip"
+              data-back="Contact"
+              data-front="Contact"
+            ></a>
+          </nav>
+        </div>
+
+        <div class="hamburger-btn">
+          <i class="fal fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- ------Mobile Header Slider------ -->
+    <div class="mobile-nav-slider">
+      <div class="mobile-nav-slider-top">
+        <i class="fal fa-window-close slider-close-btn"></i>
+      </div>
+      <div class="mobile-nav-menu">
+        <nav>
+          <span class="mobile-nav-link">
+            <a href="./index.html#businesses">Businesses</a>
+          </span>
+          <span class="mobile-nav-link">
+            <a href="./index.html#entrepreneurs"> Entrepreneurs</a>
+          </span>
+          <span class="mobile-nav-link">
+            <a href="./index.html#investors">Investors</a>
+          </span>
+          <span class="mobile-nav-link">
+            <a href="./index.html#speeches"> Speeches</a>
+          </span>
+          <span class="mobile-nav-link">
+            <a href="./index.html#seminars">Seminars</a>
+          </span>
+
+          <span class="mobile-nav-link">
+            <a href="./index.html#contact"> Contact </a>
+          </span>
+        </nav>
+      </div>
+    </div>
+
+    <!--------- Pop up Section --------->
+    <section class="popup-section">
+      <div class="popup-form" id="popupForm">
+        <div class="popup-form-div">
+          <form action="" class="reg-form">
+            <div class="form-des">
+              <h2>Get Yourself Registered with US!</h2>
+            </div>
+            <div class="input-fields">
+              <div>
+                <label for="">First Name</label>
+                <br />
+                <input type="text" placeholder="John" required />
+              </div>
+              <div>
+                <label for="">Last Name</label>
+                <br />
+                <input type="text" placeholder="Doe" required />
+              </div>
+            </div>
+            <div class="input-fields">
+              <div>
+                <label for="">Date of Birth </label>
+                <br />
+                <input type="date" name="" id="" />
+              </div>
+              <div>
+                <label for="">Gender </label>
+                <br />
+                <select name="gender" id="gender" required>
+                  <option>Gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="input-fields">
+              <div>
+                <label for="">Country </label>
+                <br />
+                <select name="cars" id="cars" required>
+                  <option value="">Select a Country</option>
+                  <option value="AF">Afghanistan</option>
+                  <option value="AL">Albania</option>
+                  <option value="DZ">Algeria</option>
+                  <option value="AS">American Samoa</option>
+                  <option value="AD">Andorra</option>
+                  <option value="AO">Angola</option>
+                  <option value="AI">Anguilla</option>
+                  <option value="AG">Antigua and Barbuda</option>
+                  <option value="AR">Argentina</option>
+                  <option value="AM">Armenia</option>
+                  <option value="AW">Aruba</option>
+                  <option value="AU">Australia</option>
+                  <option value="AT">Austria</option>
+                  <option value="AZ">Azerbaijan</option>
+                  <option value="BS">Bahamas</option>
+                  <option value="BH">Bahrain</option>
+                  <option value="BD">Bangladesh</option>
+                  <option value="BB">Barbados</option>
+                  <option value="BY">Belarus</option>
+                  <option value="BE">Belgium</option>
+                  <option value="BZ">Belize</option>
+                  <option value="BJ">Benin</option>
+                  <option value="BM">Bermuda</option>
+                  <option value="BT">Bhutan</option>
+                  <option value="BO">Bolivia</option>
+                  <option value="BA">Bosnia and Herzegovina</option>
+                  <option value="BW">Botswana</option>
+                  <option value="BR">Brazil</option>
+                  <option value="BN">Brunei</option>
+                  <option value="BG">Bulgaria</option>
+                  <option value="BF">Burkina Faso</option>
+                  <option value="BI">Burundi</option>
+                  <option value="KH">Cambodia</option>
+                  <option value="CM">Cameroon</option>
+                  <option value="CA">Canada</option>
+                  <option value="CV">Cape Verde</option>
+                  <option value="KY">Cayman Islands</option>
+                  <option value="CF">Central African Republic</option>
+                  <option value="TD">Chad</option>
+                  <option value="CL">Chile</option>
+                  <option value="CN">China</option>
+                  <option value="CO">Colombia</option>
+                  <option value="KM">Comoros</option>
+                  <option value="CG">Congo</option>
+                  <option value="CR">Costa Rica</option>
+                  <option value="HR">Croatia</option>
+                  <option value="CU">Cuba</option>
+                  <option value="CY">Cyprus</option>
+                  <option value="CZ">Czech Republic</option>
+                  <option value="DK">Denmark</option>
+                  <option value="DJ">Djibouti</option>
+                  <option value="DM">Dominica</option>
+                  <option value="DO">Dominican Republic</option>
+                  <option value="EC">Ecuador</option>
+                  <option value="EG">Egypt</option>
+                  <option value="SV">El Salvador</option>
+                  <option value="GQ">Equatorial Guinea</option>
+                  <option value="ER">Eritrea</option>
+                  <option value="EE">Estonia</option>
+                  <option value="ET">Ethiopia</option>
+                  <option value="FJ">Fiji</option>
+                  <option value="FI">Finland</option>
+                  <option value="FR">France</option>
+                  <option value="GA">Gabon</option>
+                  <option value="GM">Gambia</option>
+                  <option value="GE">Georgia</option>
+                  <option value="DE">Germany</option>
+                  <option value="GH">Ghana</option>
+                  <option value="GR">Greece</option>
+                  <option value="GD">Grenada</option>
+                  <option value="GT">Guatemala</option>
+                  <option value="GN">Guinea</option>
+                  <option value="GW">Guinea-Bissau</option>
+                  <option value="GY">Guyana</option>
+                  <option value="HT">Haiti</option>
+                  <option value="HN">Honduras</option>
+                  <option value="HU">Hungary</option>
+                  <option value="IS">Iceland</option>
+                  <option value="IN">India</option>
+                  <option value="ID">Indonesia</option>
+                  <option value="IR">Iran</option>
+                  <option value="IQ">Iraq</option>
+                  <option value="IE">Ireland</option>
+                  <option value="IL">Israel</option>
+                  <option value="IT">Italy</option>
+                  <option value="JM">Jamaica</option>
+                  <option value="JP">Japan</option>
+                  <option value="JO">Jordan</option>
+                  <option value="KZ">Kazakhstan</option>
+                  <option value="KE">Kenya</option>
+                  <option value="KI">Kiribati</option>
+                  <option value="KW">Kuwait</option>
+                  <option value="KG">Kyrgyzstan</option>
+                  <option value="LA">Laos</option>
+                  <option value="LV">Latvia</option>
+                  <option value="LB">Lebanon</option>
+                  <option value="LS">Lesotho</option>
+                  <option value="LR">Liberia</option>
+                  <option value="LY">Libya</option>
+                  <option value="LI">Liechtenstein</option>
+                  <option value="LT">Lithuania</option>
+                  <option value="LU">Luxembourg</option>
+                  <option value="MG">Madagascar</option>
+                  <option value="MW">Malawi</option>
+                  <option value="MY">Malaysia</option>
+                  <option value="MV">Maldives</option>
+                  <option value="ML">Mali</option>
+                  <option value="MT">Malta</option>
+                  <option value="MH">Marshall Islands</option>
+                  <option value="MR">Mauritania</option>
+                  <option value="MU">Mauritius</option>
+                  <option value="MX">Mexico</option>
+                  <option value="FM">Micronesia</option>
+                  <option value="MD">Moldova</option>
+                  <option value="MC">Monaco</option>
+                  <option value="MN">Mongolia</option>
+                  <option value="ME">Montenegro</option>
+                  <option value="MA">Morocco</option>
+                  <option value="MZ">Mozambique</option>
+                  <option value="MM">Myanmar</option>
+                  <option value="NA">Namibia</option>
+                  <option value="NR">Nauru</option>
+                  <option value="NP">Nepal</option>
+                  <option value="NL">Netherlands</option>
+                  <option value="NZ">New Zealand</option>
+                  <option value="NI">Nicaragua</option>
+                  <option value="NE">Niger</option>
+                  <option value="NG">Nigeria</option>
+                  <option value="KP">North Korea</option>
+                  <option value="NO">Norway</option>
+                  <option value="OM">Oman</option>
+                  <option value="PK">Pakistan</option>
+                  <option value="PW">Palau</option>
+                  <option value="PA">Panama</option>
+                  <option value="PG">Papua New Guinea</option>
+                  <option value="PY">Paraguay</option>
+                  <option value="PE">Peru</option>
+                  <option value="PH">Philippines</option>
+                  <option value="PL">Poland</option>
+                  <option value="PT">Portugal</option>
+                  <option value="QA">Qatar</option>
+                  <option value="RO">Romania</option>
+                  <option value="RU">Russia</option>
+                  <option value="RW">Rwanda</option>
+                  <option value="WS">Samoa</option>
+                  <option value="SA">Saudi Arabia</option>
+                  <option value="SN">Senegal</option>
+                  <option value="RS">Serbia</option>
+                  <option value="SC">Seychelles</option>
+                  <option value="SL">Sierra Leone</option>
+                  <option value="SG">Singapore</option>
+                  <option value="SK">Slovakia</option>
+                  <option value="SI">Slovenia</option>
+                  <option value="SB">Solomon Islands</option>
+                  <option value="SO">Somalia</option>
+                  <option value="ZA">South Africa</option>
+                  <option value="KR">South Korea</option>
+                  <option value="ES">Spain</option>
+                  <option value="LK">Sri Lanka</option>
+                  <option value="SD">Sudan</option>
+                  <option value="SR">Suriname</option>
+                  <option value="SE">Sweden</option>
+                  <option value="CH">Switzerland</option>
+                  <option value="SY">Syria</option>
+                  <option value="TW">Taiwan</option>
+                </select>
+              </div>
+              <div>
+                <label for="">Mobile Number </label>
+                <br />
+                <input type="tel" placeholder="+123456789" required />
+              </div>
+            </div>
+            <div class="input-fields">
+              <div>
+                <label for="">Company Name</label>
+                <br />
+                <input type="text" placeholder="ABC" required />
+              </div>
+              <div>
+                <label for="">Job Title</label>
+                <br />
+                <input type="text" placeholder="XYZ" required />
+              </div>
+            </div>
+            <div class="currency-btns">
+              <label for="">Attendee Type </label>
+              <div>
+                <button
+                  class="currency-btn-selected currency-btns-toggle"
+                  type="button"
+                >
+                  Visitor (500£)
+                </button>
+                <button class="currency-btns-toggle" type="button">
+                  Setup a Stall (1000£)
+                </button>
+              </div>
+            </div>
+            <div class="input-fields">
+              <div>
+                <label for="">Email</label>
+                <input type="text" placeholder="johndoe@gmail.com" required />
+              </div>
+            </div>
+
+            <div class="form-btns">
+              <button type="submit">Register</button>
+              <button type="button" id="js-cancel">Cancel</button>
+            </div>
+          </form>
+          <form action="" class="reason-form">
+            <div class="reason-form-icons">
+              <button type="button" id="js-back">
+                <i class="fas fa-chevron-circle-left"></i>
+              </button>
+              <button type="button" id="js-close">
+                <i class="fas fa-times-circle"></i>
+              </button>
+            </div>
+            <div class="form-des">
+              <h3>
+                Wait! You’re About to Miss Out –
+                <span> Are You Sure You Want to Quit Registration?</span>
+                Let Us Know Why and Don’t Miss Out on This Opportunity!"
+              </h3>
+            </div>
+            <div class="textarea">
+              <label for="">Write a reason</label>
+              <br />
+              <textarea name="" id="" rows="4"></textarea>
+            </div>
+            <button type="" class="reason-form-submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------Hero Section---------------- -->
+    <section class="hero-section">
+      <div class="intro">
+        <div class="hero-img">
+          <img src="./assets/28.jpg" alt="" />
+        </div>
+
+        <div class="hero-content">
+          <h2 class="h2">
+            Empower Your Dreams with
+            <span id="text"> Proven Success.</span>
+          </h2>
+          <p>
+            Discover endless opportunities at the British and International
+            Franchise Exhibition, happening at
+            <br />
+            <span>
+              Olympia London from March 31<sup>st</sup> to April 6<sup>th</sup>,
+              2025!
+            </span>
+          </p>
+          <button class="SMN_effect-8 js-open">
+            <div>
+              <a data-hover="500 £">
+                <span>Register </span>
+              </a>
+            </div>
+          </button>
+        </div>
+        <span class="overlay">
+          <svg
+            version="1.1"
+            id="circle"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 500 250"
+            enable-background="new 0 0 500 250"
+            xml:space="preserve"
+            PreserveAspectRatio="none"
+          >
+            <path
+              fill="white"
+              d="M250,246.5c-97.85,0-186.344-40.044-250-104.633V250h500V141.867C436.344,206.456,347.85,246.5,250,246.5z"
+            />
+          </svg>
+        </span>
+      </div>
+    </section>
+
+    <!--------------- About Section ----------------->
+    <section class="about-section container">
+      <!-- <span class="section-tag">Ideas London </span> -->
+      <span class="section-tag"
+        >British and International Franchise Exhibition</span
+      >
+
+      <div class="about-section-top-flex">
+        <div>
+          <h3 class="h3">Discover Endless Opportunities in Franchising</h3>
+          <p class="para">
+            Unlock the pathway to business ownership by attending franchise
+            expos where aspiring entrepreneurs and established business owners
+            connect with industry leaders. These events offer exclusive access
+            to educational seminars, legal and financial guidance, and a
+            showcase of diverse franchise concepts across industries. Whether
+            you're starting fresh or looking to grow an existing venture, these
+            expos provide the insights and tools to achieve success in the
+            dynamic franchising world​
+          </p>
+        </div>
+        <button class="btn-style-2 cta-btn js-open">
+          <a href=""
+            >Unlock Opportunities<i class="far fa-chevron-right"></i
+          ></a>
+        </button>
+      </div>
+    </section>
+    <!----------- Countdown Section---------- -->
+    <section class="countdown-section">
+      <div class="count-down">
+        <h3 class="h3">
+          Don’t miss out—claim your spot now before it’s too late!
+        </h3>
+        <div class="flipdown" id="flipdown"></div>
+      </div>
+      <div class="countdown-section-vector">
+        <img src="./assets/hurry.png" alt="" />
+      </div>
+    </section>
+    <!-------------- Split Section----------------->
+    <section class="split-section container" id="businesses">
+      <div class="split-section-img">
+        <img src="./assets/21.jpg" alt="" />
+        <h1 class="h1">Business</h1>
+      </div>
+      <div class="split-section-content">
+        <div>
+          <h1 class="h1">businesses</h1>
+          <h4 class="h4">
+            <i class="fas fa-horizontal-rule"></i> Connect, Collaborate, and
+            Build the Business of Your Dreams
+            <i class="fas fa-horizontal-rule"></i>
+          </h4>
+          <p class="para">
+            Join a dynamic platform where ambitious entrepreneurs and
+            established brands converge to explore endless business
+            opportunities. With interactive exhibits, educational workshops, and
+            industry experts, our events empower you to take the next step
+            toward successful business ownership.
+          </p>
+          <p class="para">
+            Whether you're launching your first venture or expanding your
+            portfolio, we provide the tools and insights to fuel your
+            entrepreneurial journey.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--------- Crousal/Partners/Team Section----------->
+    <section class="team-section crousal-section">
+      <div class="team-section-bg container">
+        <span class="section-tag">Our Sponsers</span>
+
+        <div class="team-section-top-flex">
+          <div>
+            <h3 class="h3">Showcase Your Brand and Maximize Global Reach</h3>
+          </div>
+          <button class="btn-style-2 cta-btn js-open">
+            <a href=""
+              >Attend Ideas London<i class="far fa-chevron-right"></i
+            ></a>
+          </button>
+        </div>
+        <div>
+          <div class="crousal-div">
+            <div class="brandsCarousel container">
+              <div class="carouselTrack">
+                <!-- Original logos -->
+                <div class="brandLogo brandLogo_1">
+                  <img src="./assets/hhm.png" alt="Logo 1" />
+                </div>
+                <div class="brandLogo brandLogo_2">
+                  <img src="./assets/Hahm.png" alt="Logo 1" />
+                </div>
+                <div class="brandLogo brandLogo_3">
+                  <img src="./assets/global.png" alt="Logo 1" />
+                </div>
+                <div class="brandLogo brandLogo_1">
+                  <img src="./assets/zone.png" alt="Logo 1" />
+                </div>
+
+                <!-- Duplicate logos -->
+                <div class="brandLogo brandLogo_1">
+                  <img src="./assets/hhm.png" alt="Logo 1" />
+                </div>
+                <div class="brandLogo brandLogo_2">
+                  <img src="./assets/Hahm.png" alt="Logo 1" />
+                </div>
+                <div class="brandLogo brandLogo_3">
+                  <img src="./assets/global.png" alt="Logo 1" />
+                </div>
+                <div class="brandLogo brandLogo_1">
+                  <img src="./assets/zone.png" alt="Logo 1" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- Right to Left Split Section ----------->
+    <section class="RL-split-section container" id="entrepreneurs">
+      <div class="RL-split-section-grid">
+        <div class="RL-split-section-grid-left">
+          <div>
+            <h2 class="h2">Entrepreneurs</h2>
+            <h4 class="h4">
+              <i class="fas fa-horizontal-rule"></i> Ignite Your Entrepreneurial
+              Vision and Achieve New Heights
+              <i class="fas fa-horizontal-rule"></i>
+            </h4>
+            <p class="para">
+              Step into a world of opportunities designed to fuel your
+              entrepreneurial spirit. Our events bring together innovators,
+              industry leaders, and aspiring business owners, offering valuable
+              insights, mentorship, and actionable strategies. Whether you're
+              starting fresh or scaling your venture, we provide the platform to
+              turn your ideas into reality​
+            </p>
+            <!-- <button class="btn-style-4 cta-btn">
+                <a href="">Give a Speech<i class="far fa-chevron-right"></i></a>
+              </button> -->
+          </div>
+        </div>
+        <div class="RL-split-section-grid-right">
+          <img src="./assets/16.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!---------- Left to Right Split Section --------------->
+    <section class="LR-split-section container" id="investors">
+      <div class="LR-split-section-grid">
+        <div class="LR-split-section-grid-left">
+          <img src="./assets/30.jpg" alt="" />
+        </div>
+        <div class="LR-split-section-grid-right">
+          <div>
+            <div>
+              <h2 class="h2">Investors</h2>
+              <h4 class="h4">
+                <i class="fas fa-horizontal-rule"></i> Empowering Investors to
+                Discover High-Growth Opportunities
+                <i class="fas fa-horizontal-rule"></i>
+              </h4>
+              <p class="para">
+                Connect with groundbreaking businesses and proven franchise
+                models tailored for visionary investors. Our events showcase
+                scalable ventures, innovative startups, and franchising
+                opportunities that promise strong ROI. Engage with industry
+                experts, gain market insights, and unlock strategies to
+                diversify and strengthen your investment portfolio
+              </p>
+              <!-- <button class="btn-style-4 cta-btn">
+                <a href="">Give a Speech<i class="far fa-chevron-right"></i></a>
+              </button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------ Speeches Section -------------->
+    <section class="team-section" id="speeches">
+      <div class="team-section-bg container">
+        <span class="section-tag">Speeches</span>
+
+        <div class="team-section-top-flex">
+          <div>
+            <h3 class="h3">
+              Inspiring Talks to Transform Ideas Into Actionable Success
+            </h3>
+            <p class="para">
+              Experience thought-provoking speeches from industry leaders,
+              successful entrepreneurs, and innovators who have redefined the
+              business landscape. Gain invaluable insights, practical advice,
+              and motivation to navigate challenges and seize opportunities. Our
+              events offer a stage for visionary speakers to ignite inspiration
+              and help you take your entrepreneurial journey to the next level​
+            </p>
+          </div>
+          <button class="btn-style-2 cta-btn js-open">
+            <a>Get Yourself Registered<i class="far fa-chevron-right"></i></a>
+          </button>
+        </div>
+        <div class="team-section-bottom-grid">
+          <div>
+            <img src="./assets/27.jpg" alt="" />
+          </div>
+          <div>
+            <img src="./assets/13.jpg" alt="" />
+          </div>
+          <div>
+            <img src="./assets/14.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------- Split Modify Section Section ------------>
+    <section class="split-modify-section container" id="seminars">
+      <div class="split-modify-section-grid">
+        <div class="split-modify-section-grid-left">
+          <h2 class="h2">Seminars</h2>
+          <img src="./assets/12.jpg" alt="" />
+        </div>
+        <div class="split-modify-section-grid-right">
+          <!--?xml version="1.0" standalone="no"?-->
+          <svg
+            id="sw-js-blob-svg"
+            viewBox="0 0 100 100"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+                <stop
+                  id="stop1"
+                  stop-color="rgba(248, 117, 55, 1)"
+                  offset="0%"
+                ></stop>
+                <stop
+                  id="stop2"
+                  stop-color="rgba(251, 168, 31, 1)"
+                  offset="100%"
+                ></stop>
+              </linearGradient>
+            </defs>
+            <path
+              fill="url(#sw-gradient)"
+              d="M21.1,-24.2C26.6,-20.5,29.7,-13.2,29.4,-6.4C29.1,0.3,25.4,6.4,21.8,12.5C18.2,18.7,14.7,24.9,9.1,28.4C3.4,32,-4.4,32.8,-10.4,30C-16.5,27.3,-20.6,20.8,-25.5,14C-30.4,7.1,-35.9,-0.1,-36.3,-7.9C-36.8,-15.8,-32.1,-24.2,-25.2,-27.7C-18.3,-31.1,-9.1,-29.6,-0.7,-28.8C7.8,-28,15.6,-27.9,21.1,-24.2Z"
+              width="100%"
+              height="100%"
+              transform="translate(50 50)"
+              stroke-width="0"
+              style="transition: 0.3s"
+            ></path>
+          </svg>
+
+          <h4 class="h4">
+            <i class="fas fa-horizontal-rule"></i> Insightful Seminars to
+            Empower Your Business Knowledge
+            <i class="fas fa-horizontal-rule"></i>
+          </h4>
+          <p class="para">
+            Gain valuable insights and practical expertise through seminars led
+            by industry pioneers, franchise experts, and successful
+            entrepreneurs. Our sessions are designed to address key challenges,
+            explore market trends, and equip you with actionable strategies to
+            excel in your business ventures. Whether you're a seasoned
+            professional or just starting out, these seminars provide the tools
+            you need for informed decision-making and long-term succes
+          </p>
+          <div class="split-modify-section-grid-right-collage">
+            <img src="./assets/19.jpg" alt="" />
+            <img src="./assets/11.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------- Footer -------------->
+    <footer id="contact">
+      <div class="footer-top container">
+        <div class="footer-top-left">
+          <img src="./assets/logo footer.png" alt="" />
+        </div>
+        <div class="footer-top-right">
+          <div class="footer-top-right-left">
+            <span>Quick Links</span>
+            <nav>
+              <a href="./index.html#businesses">Businesses</a>
+
+              <a href="./index.html#entrepreneurs"> Entrepreneurs</a>
+              <a href="./index.html#investors">Investors</a>
+              <a href="./index.html#speeches"> Speeches</a>
+
+              <a href="./index.html#seminars">Seminars</a>
+            </nav>
+          </div>
+          <div class="footer-top-right-middle">
+            <span>Registration Fee</span>
+            <p>
+              <b> Visitors:</b>
+              500 £
+            </p>
+            <p>
+              <b>Setting up a Stall:</b>
+              1000 £
+            </p>
+          </div>
+          <div class="footer-top-right-end">
+            <span>Event Details</span>
+            <p>
+              <b>Location: </b>
+              British and International Franchise Exhibition at Olympia London
+            </p>
+            <p>
+              <b>Dates:</b> 31 <sup>st</sup>March - 6 <sup>th</sup> April 2025
+            </p>
+            <p><b>Email: </b>info@ideaslondon.co.uk</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          Copyright © 2024 Ideas London. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function inViewport($el) {
+        var H = $(window).height(),
+          r = $el[0].getBoundingClientRect(),
+          t = r.top,
+          b = r.bottom;
+        return Math.max(0, t > 0 ? H - t : b < H ? b : H);
+      }
+
+      $(window).on("scroll resize", function () {
+        var window_offset = inViewport($(".intro"));
+        $(".overlay").height(window_offset);
+        $(".caption").css("bottom", window_offset / 4);
+      });
+    </script>
+    <script src="https://pbutcher.uk/flipdown/js/flipdown/flipdown.js"></script>
+    <script src="vendor/js/main.js"></script>
+    <script>
+      // The End Of Year Date To Countdown Date
+
+      document.addEventListener("DOMContentLoaded", () => {
+        // Unix timestamp (in seconds) to count down to
+        var toDayFromNow =
+          new Date("March 30, 2025 23:59:59").getTime() / 1000 +
+          3600 / 60 / 60 / 24 -
+          1;
+        // Set Up FlipDown
+        var flipdown = new FlipDown(toDayFromNow)
+
+          // Start The Count Down
+          .start()
+          // Do Something When The Countdown Ends
+          .ifEnded(() => {
+            document.querySelector(
+              ".flipdown"
+            ).innerHTML = `<h2>Timer is ended</h2>`;
+          });
+      });
+    </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+      var $body = $("body");
+
+      $(document).ready(function () {
+        setTimeout(function () {
+          $(".popup-section").fadeIn();
+          $("body").addClass("no-scroll");
+        }, 20000);
+        $(".js-open").on("click", () => {
+          $(".popup-section").fadeIn();
+          $("body").addClass("no-scroll");
+        });
+        $("#js-close").on("click", () => {
+          $(".popup-section").fadeOut();
+          $("body").removeClass("no-scroll");
+          $(".reg-form").css("display", "block");
+          $(".reason-form").css("display", "none");
+        });
+
+        $("#js-cancel").on("click", () => {
+          $(".reg-form").css("display", "none");
+          $(".reason-form").css("display", "block");
+        });
+        $("#js-back").on("click", () => {
+          $(".reg-form").css("display", "block");
+          $(".reason-form").css("display", "none");
+        });
+      });
+    </script>
+  </body>
+</html>
