@@ -437,21 +437,15 @@
             <span id="text"> Proven Success.</span>
           </h2>
           <p>
-            Discover endless opportunities at the British and International
-            Franchise Exhibition, happening at
+            <span> Discover endless opportunities at the</span>
+            British and International Franchise Exhibition, happening at
             <br />
-            <span>
+            <b>
               Olympia London from March 31<sup>st</sup> to April 6<sup>th</sup>,
               2025!
-            </span>
+            </b>
           </p>
-          <button class="SMN_effect-8 js-open">
-            <div>
-              <a data-hover="500 £">
-                <span>Register </span>
-              </a>
-            </div>
-          </button>
+          <button class="mob-reg-btn js-open">Register</button>
         </div>
         <span class="overlay">
           <svg
@@ -497,9 +491,7 @@
           </p>
         </div>
         <button class="btn-style-2 cta-btn js-open">
-          <a href=""
-            >Unlock Opportunities<i class="far fa-chevron-right"></i
-          ></a>
+          <a>Unlock Opportunities<i class="far fa-chevron-right"></i></a>
         </button>
       </div>
     </section>
@@ -554,9 +546,7 @@
             <h3 class="h3">Showcase Your Brand and Maximize Global Reach</h3>
           </div>
           <button class="btn-style-2 cta-btn js-open">
-            <a href=""
-              >Attend Ideas London<i class="far fa-chevron-right"></i
-            ></a>
+            <a>Attend Ideas London<i class="far fa-chevron-right"></i></a>
           </button>
         </div>
         <div>
@@ -853,10 +843,10 @@
       var $body = $("body");
 
       $(document).ready(function () {
-        setTimeout(function () {
-          $(".popup-section").fadeIn();
-          $("body").addClass("no-scroll");
-        }, 20000);
+        // setTimeout(function () {
+        //   $(".popup-section").fadeIn();
+        //   $("body").addClass("no-scroll");
+        // }, 20000);
         $(".js-open").on("click", () => {
           $(".popup-section").fadeIn();
           $("body").addClass("no-scroll");
