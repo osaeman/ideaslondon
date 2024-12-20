@@ -843,10 +843,10 @@
       var $body = $("body");
 
       $(document).ready(function () {
-        // setTimeout(function () {
-        //   $(".popup-section").fadeIn();
-        //   $("body").addClass("no-scroll");
-        // }, 20000);
+        setTimeout(function () {
+          $(".popup-section").fadeIn();
+          $("body").addClass("no-scroll");
+        }, 20000);
         $(".js-open").on("click", () => {
           $(".popup-section").fadeIn();
           $("body").addClass("no-scroll");
